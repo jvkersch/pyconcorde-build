@@ -24,3 +24,5 @@ jobs:
       if: matrix.os == 'macos-latest'
     - name: create PR
       uses: peter-evans/create-pull-request@v5
+      with:
+        branch-suffix: timestamp
