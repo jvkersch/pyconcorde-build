@@ -22,8 +22,8 @@ make -j4
 TSP/concorde -s 1234 -k 5 || true
 
 # Move the solver to the repo
-mkdir -p ../binaries/macos/arm64
-mv TSP/concorde ../binaries/macos/arm64/concorde
+mkdir -p ../../binaries/macos/arm64
+mv TSP/concorde ../../binaries/macos/arm64/concorde
 
 # Cleanup
 cd ..

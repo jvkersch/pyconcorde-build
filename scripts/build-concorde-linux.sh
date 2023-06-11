@@ -21,8 +21,8 @@ make -j4
 TSP/concorde -s 1234 -k 5
 
 # Move the solver to the repo
-mkdir -p ../binaries/linux
-mv TSP/concorde ../binaries/linux/concorde
+mkdir -p ../../binaries/linux
+mv TSP/concorde ../../binaries/linux/concorde
 
 # Cleanup
 cd ..
